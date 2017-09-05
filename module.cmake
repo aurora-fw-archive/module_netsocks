@@ -22,6 +22,6 @@ endif()
 
 include_directories(${AURORAFW_MODULE_NETSOCKS_DIR}/include)
 
-#add_library (aurorafw-io SHARED ${AURORAFW_MODULE_IO_SOURCE_DIR}/Socket.cpp)
+add_library (aurorafw-netsocks SHARED ${AURORAFW_MODULE_NETSOCKS_SOURCE_DIR}/Socket.cpp)
 
 set_target_properties(aurorafw-netsocks PROPERTIES OUTPUT_NAME aurorafw-netsocks)
