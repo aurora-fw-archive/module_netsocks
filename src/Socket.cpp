@@ -20,4 +20,4 @@
 ** met: https://www.gnu.org/licenses/gpl-3.0.html.
 ****************************************************************************/
 
-#include "AuroraFW/Netsocks/Socket.h"
+#include <AuroraFW/Netsocks/Socket.h>
